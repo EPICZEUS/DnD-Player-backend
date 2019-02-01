@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  campaign: one
+  name: MyString
+  race: MyString
+  class: MyString
+  level: 1
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  speed: MyString
+  hp: 1
+  alignment: MyString
+  armor_class: 1
+
+two:
+  user: two
+  campaign: two
+  name: MyString
+  race: MyString
+  class: MyString
+  level: 1
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  speed: MyString
+  hp: 1
+  alignment: MyString
+  armor_class: 1

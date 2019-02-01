@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  channelable: one
+  user: one
+  content: MyString
+
+two:
+  channelable: two
+  user: two
+  content: MyString

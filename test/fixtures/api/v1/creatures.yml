@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  challenge_rating: 1
+  armor_class: 1
+  speed: MyString
+  hp: 1
+  alignment: MyString
+
+two:
+  name: MyString
+  type: 
+  str: 1
+  dex: 1
+  con: 1
+  int: 1
+  wis: 1
+  cha: 1
+  challenge_rating: 1
+  armor_class: 1
+  speed: MyString
+  hp: 1
+  alignment: MyString
