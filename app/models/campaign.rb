@@ -6,6 +6,7 @@ class Campaign < ApplicationRecord
   has_and_belongs_to_many :users
 
   has_many :encounters, dependent: :destroy
+  has_many :characters, dependent: :destroy
 
   validates :name, presence: true, uniqueness: { case_sensitive: false }
 

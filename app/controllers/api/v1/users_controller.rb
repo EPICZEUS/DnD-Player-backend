@@ -19,7 +19,7 @@ class Api::V1::UsersController < ApplicationController
 		if @user.valid?
 			render json: { user: UserSerializer.new(@user), token: encode_token({ user_id: @user.id })}, status: :created
 		else
-			render json: { message: @user.errors.full_messages.empty? ? "There was an error creating your account" : @user.errors.full_messages }, status: :unprocessable_entity
+			render json: { errors: @user.errors.messages.keys, messages: @user.errors.full_messages }, status: :not_acceptable
 		end
 	end
 

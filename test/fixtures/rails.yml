@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  g: MyString
+  Model: MyString
+  Position: MyString
+  x: 1
+  'y': 1
+  encounter: one
+  playable: one
+
+two:
+  g: MyString
+  Model: MyString
+  Position: MyString
+  x: 1
+  'y': 1
+  encounter: two
+  playable: two
